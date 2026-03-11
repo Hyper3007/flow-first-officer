@@ -66,7 +66,7 @@ const commandList = [
   {
     var: "L:INI_SEATBELTS_SWITCH",
     action: null,
-    desired_pos: () => 2,
+    desired_pos: () => 1,
     delay: () => this.store.delay,
     enabled: () => this.store.enable_seatbelt,
     perform_once: false,
@@ -74,7 +74,7 @@ const commandList = [
   {
     var: "L:INI_NO_SMOKING_SWITCH",
     action: null,
-    desired_pos: () => 1,
+    desired_pos: () => 2,
     delay: () => this.store.delay,
     enabled: () => this.store.enable_seatbelt,
     perform_once: false,
@@ -91,7 +91,7 @@ const commandList = [
   {
     var: "L:INI_LIGHTS_STROBE",
     action: null,
-    desired_pos: () => 2,
+    desired_pos: () => 1,
     delay: () => this.store.delay,
     enabled: () => true,
     perform_once: false,
